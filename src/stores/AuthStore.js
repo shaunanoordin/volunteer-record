@@ -23,6 +23,11 @@ const AuthStore = types.model('AuthStore', {
     // Returns a login page URL for the user to navigate to.
     oauth.signIn(computeRedirectURL(window))
   },
+  
+  logout: flow(function* logout () {
+    const user = yield oauth.signOut()
+    self.user = user
+  })
 
 })).views(self => ({
   get userName () {
