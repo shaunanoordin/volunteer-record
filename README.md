@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Zooniverse Volunteer Record
+
+This is a hackday project that lets Zooniverse volunteers see how many Classifications they've made. This is in response to requests from several users for the Zooniverse to 'certify' the amount of volunteer time they spent classifying.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
