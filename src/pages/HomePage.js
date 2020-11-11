@@ -3,6 +3,7 @@ import { Box, Button, Text, } from 'grommet'
 import { observer } from 'mobx-react'
 
 import AppContext from 'stores'
+import Stats from 'components/Stats'
 
 function HomePage () {
   const store = React.useContext(AppContext)
@@ -31,6 +32,7 @@ function HomePage () {
           </>
         )}
       </Box>
+      <Stats />
     </Box>
   )
 }
