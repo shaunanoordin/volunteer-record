@@ -10,12 +10,10 @@ if (!env.match(/^(production|staging|development|test)$/)) {
 
 const baseConfig = {
   staging: {
-    caesar: 'https://caesar-staging.zooniverse.org/graphql',
-    pusherAppKey: '95781402b5854a712a03',
+    panoptesAppId: '07b373e6941a6aaeb990c0b5167dee8875d44260b969567c3aae1e0283ecd9ab',
   },
   production: {
-    caesar: 'https://caesar.zooniverse.org/graphql',
-    pusherAppKey: '79e8e05ea522377ba6db',
+    panoptesAppId: '07b373e6941a6aaeb990c0b5167dee8875d44260b969567c3aae1e0283ecd9ab',
   },
 }
 

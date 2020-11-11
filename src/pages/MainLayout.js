@@ -27,7 +27,7 @@ function MainLayout ({ children }) {
           </Box>
         </Anchor>
         <StyledHeading flex='grow' border={true} background='#cce'>
-          Zooniverse - Zoo Notes
+          Zooniverse Volunteer Record
         </StyledHeading>
         <Menu
           a11yTitle='Main Menu button'

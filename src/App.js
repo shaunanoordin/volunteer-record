@@ -5,13 +5,13 @@ import { Router, Route } from 'react-router-dom'
 import { Grommet } from 'grommet'
 import { observer } from 'mobx-react'
 import apiClient from 'panoptes-client/lib/api-client'
-import auth from 'panoptes-client/lib/auth'
 
 import { mergedTheme } from './theme'
 import AppContext from './stores'
 import history from './history'
 
 import MainLayout from './pages/MainLayout'
+import HomePage from './pages/HomePage'
 
 function App() {
   const store = React.useContext(AppContext)
@@ -27,7 +27,7 @@ function App() {
       <main>
         <Grommet theme={mergedTheme}>
           <MainLayout>
-            ...
+            <HomePage />
           </MainLayout>
         </Grommet>
       </main>
